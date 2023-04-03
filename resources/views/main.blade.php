@@ -1,0 +1,6 @@
+@include('partials.header')
+@include('partials.menu')
+	@yield('css')	
+	@yield('content')	
+@include('partials.footer')
+	@yield('js')	
